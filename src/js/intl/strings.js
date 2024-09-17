@@ -914,7 +914,7 @@ exports.strings = {
   ///////////////////////////////////////////////////////////////////////////
   'learn-git-branching': {
     '__desc__': 'The title of the app, with spaces',
-    'en_US': 'Learn Git Branching',
+    'en_US': 'Git Playground',
     'de_DE': 'Lerne Git Branching',
     'ja': '日本語版リポジトリ',
     'zh_CN': '学习 Git 分支',
