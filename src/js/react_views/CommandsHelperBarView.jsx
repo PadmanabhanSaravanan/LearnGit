@@ -23,17 +23,7 @@ class CommandsHelperBarView extends React.Component {
   }
 
   getItems() {
-    return [{
-      text: intl.str('command-helper-bar-levels'),
-      onClick: function() {
-        this.fireCommand('levels');
-      }.bind(this),
-    }, {
-      text: intl.str('command-helper-bar-solution'),
-      onClick: function() {
-        this.fireCommand('show solution');
-      }.bind(this),
-    }, {
+    return [ {
       text: intl.str('command-helper-bar-reset'),
       onClick: function() {
         this.fireCommand('reset');
@@ -43,16 +33,6 @@ class CommandsHelperBarView extends React.Component {
       onClick: function() {
         this.fireCommand('undo');
       }.bind(this),
-    }, {
-      text: intl.str('command-helper-bar-objective'),
-      onClick: function() {
-        this.fireCommand('objective');
-      }.bind(this),
-    }, {
-      text: intl.str('command-helper-bar-help'),
-      onClick: function() {
-        this.fireCommand('help general; git help');
-      }.bind(this)
     }, {
       icon: 'signout',
       onClick: function() {

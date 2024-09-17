@@ -2,17 +2,11 @@
   "name": "LearnGitBranching",
   "version": "0.8.0",
   "description": "An interactive git visualization to challenge and educate!",
-  "homepage": "https://learngitbranching.js.org",
-  "author": "Peter Cottle <petermcottle@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
     "prepare": "gulp fastBuild",
     "test": "gulp test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pcottle/learnGitBranching"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
